@@ -1,0 +1,429 @@
+{
+	"info": {
+		"_postman_id": "e88023c9-b392-45b6-ad09-990a804592a8",
+		"name": "HTTP-Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17782008"
+	},
+	"item": [
+		{
+			"name": "thirdapi",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/thirdapi",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"thirdapi"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/thirdapi",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"thirdapi"
+							]
+						}
+					},
+					"code": 500,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "Third API"
+				}
+			]
+		},
+		{
+			"name": "Fourth-API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/fourthAPI",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"fourthAPI"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/fourthAPI",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"fourthAPI"
+							]
+						}
+					},
+					"code": 401,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "Fourth-API"
+				}
+			]
+		},
+		{
+			"name": "Fifth-API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "why leave",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/fifth-API",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"fifth-API"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "text/plain",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "text"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/fifth-API",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"fifth-API"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "hi, Good for u"
+				}
+			]
+		},
+		{
+			"name": "sixth-API",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/sixth-API",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"sixth-API"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "sixth-API",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "FIle-Type",
+								"value": "image/png",
+								"type": "text"
+							},
+							{
+								"key": "Password",
+								"value": "idk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "file",
+							"file": {
+								"src": "Hr5BspyQY/Screenshot 2023-03-02 at 12.14.59 PM.png"
+							}
+						},
+						"url": {
+							"raw": "{{url}}/sixth-API",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"sixth-API"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [],
+					"cookie": [],
+					"body": "File uploaded successfully"
+				}
+			]
+		},
+		{
+			"name": "Cross-Origin-API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/cross-origin-API/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"cross-origin-API",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Cross-Origin-API",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Access-Control-Request-Headers",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Access-Control-Request-Method",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/cross-origin-API/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"cross-origin-API",
+								""
+							]
+						}
+					},
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "https://8778ef2f-405c-4428-b43d-8a95c1c8e85d.mock.pstmn.io",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "Cross-Origin Allowed"
+				}
+			]
+		},
+		{
+			"name": "Cookie-API",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "his_cookie",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/cookie-API",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"cookie-API"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Cookie-API",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/cookie-API",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"cookie-API"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "response = Cookie authentication"
+				}
+			]
+		},
+		{
+			"name": "Google-sheet-API",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "queryParams",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://docs.google.com/spreadsheets/d/12VMf0kaSdOa4O-HoSPCQSomIonOrXEQlyJYPE62aav0/edit#gid=0",
+					"protocol": "https",
+					"host": [
+						"docs",
+						"google",
+						"com"
+					],
+					"path": [
+						"spreadsheets",
+						"d",
+						"12VMf0kaSdOa4O-HoSPCQSomIonOrXEQlyJYPE62aav0",
+						"edit"
+					],
+					"hash": "gid=0"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Calender-API",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "queryParams",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/calendar/v3/calendars/aniketcharjan3@gmail.com/events/00i97i3o1f00dbrpkc2t3j8j8d",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"calendar",
+						"v3",
+						"calendars",
+						"aniketcharjan3@gmail.com",
+						"events",
+						"00i97i3o1f00dbrpkc2t3j8j8d"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://8778ef2f-405c-4428-b43d-8a95c1c8e85d.mock.pstmn.io"
+		},
+		{
+			"key": "custom Token",
+			"value": "his_cookie"
+		},
+		{
+			"key": "access-token-1",
+			"value": "gsheetauth"
+		},
+		{
+			"key": "access-token",
+			"value": "a0AVvZVsowRJMjUdUEcPSk16Qt1QTPGdgKsiGz0vt_prIJN9RPdnO1wEBdKMuRYHxcLNN"
+		},
+		{
+			"key": "calender-access-token",
+			"value": "ya29.a0AVvZVsowRJMjUdUEcPSk16Qt1QTPGdgKsiGz0vt_prIJN9RPdnO1wEBdKMuRYHxcLNN-Jorr3tJSvlI-2FImR8Zt6vk-dIcpCnQim71Qdqy1zs-a-rTbIj13tt1vrjC8h-CVRo1OHEHEXJBKkhH-UwHhSuonRfIaCgYKARUSARASFQGbdwaIL224YnyzQONtOeajtKtTEA0166"
+		}
+	]
+}
